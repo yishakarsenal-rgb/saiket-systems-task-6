@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevPulse — Interactive Task & Sprint Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- FIXED NAVBAR -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">DevPulse<span>.io</span></a>
+
+        <div class="nav-actions">
+          <button
+            class="btn btn-outline"
+            id="themeToggleBtn"
+            title="Toggle Theme"
+          >
+            🌙
+          </button>
+          <button class="btn btn-primary" id="openTaskModalBtn">
+            + New Task
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <!-- HERO / HEADER SECTION -->
+      <section class="hero-section">
+        <span class="badge">Saiket Systems Internship — Task 6</span>
+        <h1>Agile Task & Focus Command Center</h1>
+        <p>
+          A real-time, interactive web application featuring dynamic DOM
+          updates, task lifecycle tracking, and built-in focus tools.
+        </p>
+      </section>
+
+      <!-- METRICS & TIMER DASHBOARD ROW -->
+      <section class="dashboard-grid">
+        <!-- REAL-TIME STATS CARDS -->
+        <div class="stats-container">
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-title">Total Tasks</span>
+              <span class="stat-icon">📋</span>
+            </div>
+            <div class="stat-value" id="statTotal">0</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-title">Completed</span>
+              <span class="stat-icon">✅</span>
+            </div>
+            <div class="stat-value" id="statCompleted">0</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-header">
+              <span class="stat-title">Completion Rate</span>
+              <span class="stat-icon">📈</span>
+            </div>
+            <div class="stat-value" id="statProgress">0%</div>
+            <div class="progress-bar-bg">
+              <div
+                class="progress-bar-fill"
+                id="progressBarFill"
+                style="width: 0%"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOCUS POMODORO TIMER widget -->
+        <div class="timer-card">
+          <div class="timer-header">
+            <h3>⏱️ Focus Pomodoro</h3>
+            <span class="timer-mode-badge" id="timerMode">Work Session</span>
+          </div>
+          <div class="timer-display" id="timerDisplay">25:00</div>
+          <div class="timer-controls">
+            <button class="btn btn-primary btn-sm" id="timerStartBtn">
+              Start
+            </button>
+            <button class="btn btn-outline btn-sm" id="timerPauseBtn">
+              Pause
+            </button>
+            <button class="btn btn-outline btn-sm" id="timerResetBtn">
+              Reset
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEARCH & CONTROLS TOOLBAR -->
+      <section class="toolbar-section">
+        <div class="search-wrapper">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search tasks by title or tag..."
+          />
+        </div>
+
+        <div class="filter-wrapper">
+          <select id="priorityFilter">
+            <option value="all">All Priorities</option>
+            <option value="high">High Priority</option>
+            <option value="medium">Medium Priority</option>
+            <option value="low">Low Priority</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- INTERACTIVE KANBAN / TASK BOARDS -->
+      <section class="kanban-board">
+        <!-- COLUMN 1: TO DO -->
+        <div class="kanban-col" data-status="todo">
+          <div class="col-header">
+            <h3>📌 To Do</h3>
+            <span class="badge-count" id="countTodo">0</span>
+          </div>
+          <div class="task-list" id="listTodo">
+            <!-- Tasks dynamically rendered -->
+          </div>
+        </div>
+
+        <!-- COLUMN 2: IN PROGRESS -->
+        <div class="kanban-col" data-status="in-progress">
+          <div class="col-header">
+            <h3>⚡ In Progress</h3>
+            <span class="badge-count" id="countInProgress">0</span>
+          </div>
+          <div class="task-list" id="listInProgress">
+            <!-- Tasks dynamically rendered -->
+          </div>
+        </div>
+
+        <!-- COLUMN 3: COMPLETED -->
+        <div class="kanban-col" data-status="completed">
+          <div class="col-header">
+            <h3>🎉 Completed</h3>
+            <span class="badge-count" id="countCompleted">0</span>
+          </div>
+          <div class="task-list" id="listCompleted">
+            <!-- Tasks dynamically rendered -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ADD / EDIT TASK MODAL -->
+    <div class="modal" id="taskModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modalTitle">Create New Task</h3>
+          <button class="close-btn" id="closeTaskModalBtn">&times;</button>
+        </div>
+        <form id="taskForm">
+          <input type="hidden" id="taskId" />
+
+          <div class="form-group">
+            <label for="taskTitle">Task Title <span class="req">*</span></label>
+            <input
+              type="text"
+              id="taskTitle"
+              placeholder="e.g. Implement Vercel deployment pipeline"
+              required
+            />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="taskPriority">Priority</label>
+              <select id="taskPriority" required>
+                <option value="low">Low</option>
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="taskStatus">Initial Status</label>
+              <select id="taskStatus" required>
+                <option value="todo" selected>To Do</option>
+                <option value="in-progress">In Progress</option>
+                <option value="completed">Completed</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="taskTag">Category Tag</label>
+            <input
+              type="text"
+              id="taskTag"
+              placeholder="e.g. Frontend, API, ExamPrep"
+            />
+          </div>
+
+          <div class="modal-actions">
+            <button type="button" class="btn btn-outline" id="cancelTaskBtn">
+              Cancel
+            </button>
+            <button type="submit" class="btn btn-primary">Save Task</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>
+          &copy; 2026 Yishak Mekuannent. Created for Saiket Systems Internship
+          Task 6.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
