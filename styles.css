@@ -405,7 +405,6 @@ body {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-/* MODAL */
 .modal {
   display: none;
   position: fixed;
