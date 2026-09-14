@@ -300,7 +300,6 @@ body {
   flex: 1;
 }
 
-/* TASK CARDS */
 .task-card {
   background-color: var(--bg-input);
   border: 1px solid var(--border);
