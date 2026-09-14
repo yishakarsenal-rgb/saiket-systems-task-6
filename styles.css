@@ -253,7 +253,6 @@ body {
   border-color: var(--accent);
 }
 
-/* KANBAN BOARD */
 .kanban-board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
