@@ -9,7 +9,7 @@
 ## Key Features
 
 - **Interactive Kanban Board:** Organize tasks effortlessly across three lifecycle stages: _To Do_, _In Progress_, and _Completed_.
-- **🔄 Full CRUD Operations:** Create new tasks, edit existing task details, move tasks forward/backward across columns, and delete tasks with instant DOM updates.
+- **Full CRUD Operations:** Create new tasks, edit existing task details, move tasks forward/backward across columns, and delete tasks with instant DOM updates.
 - **📊 Real-Time Analytics & Metrics:** Automatically tracks Total Tasks, Completed Tasks, and calculates the overall Completion Rate with a dynamic visual progress bar.
 - **⏱️ Built-in Focus Pomodoro Timer:** Integrated 25-minute work session timer with _Start_, _Pause_, and _Reset_ controls to boost productivity directly within the dashboard.
 - **🔍 Instant Search & Filtering:** Filter tasks in real-time by title, `#tag`, or priority level (_High_, _Medium_, _Low_).
