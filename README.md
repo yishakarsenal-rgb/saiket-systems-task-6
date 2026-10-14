@@ -6,7 +6,7 @@
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **📋 Interactive Kanban Board:** Organize tasks effortlessly across three lifecycle stages: _To Do_, _In Progress_, and _Completed_.
 - **🔄 Full CRUD Operations:** Create new tasks, edit existing task details, move tasks forward/backward across columns, and delete tasks with instant DOM updates.
