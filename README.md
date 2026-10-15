@@ -40,10 +40,6 @@
 
 - Any modern web browser (Chrome, Firefox, Edge, Safari).
 
-2. **Navigate into the project directory:**
-   ```bash
-   cd devpulse-dashboard
-   ```
 3. **Launch the application:**
    - Simply double-click `index.html` to open it in your browser, **OR**
    - Use the **Live Server** extension in VS Code for hot-reloading.
