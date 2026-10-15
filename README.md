@@ -40,12 +40,6 @@
 
 - Any modern web browser (Chrome, Firefox, Edge, Safari).
 
-3. **Launch the application:**
-   - Simply double-click `index.html` to open it in your browser, **OR**
-   - Use the **Live Server** extension in VS Code for hot-reloading.
-
----
-
 ## 💡 Usage Guide
 
 1. **Adding a Task:** Click the **+ New Task** button in the top navigation bar, fill in the title, priority, initial status, and category tag, then click **Save Task**.
