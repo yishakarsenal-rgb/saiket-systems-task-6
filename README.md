@@ -36,10 +36,6 @@
 └── README.md        # Project documentation
 ```
 
----
-
-## 🚀 Getting Started
-
 Because this project is built with pure HTML, CSS, and JavaScript, no build tools or package installations are required.
 
 ### Prerequisites
