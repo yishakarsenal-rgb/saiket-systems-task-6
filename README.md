@@ -36,8 +36,6 @@
 └── README.md        # Project documentation
 ```
 
-Because this project is built with pure HTML, CSS, and JavaScript, no build tools or package installations are required.
-
 ### Prerequisites
 
 - Any modern web browser (Chrome, Firefox, Edge, Safari).
