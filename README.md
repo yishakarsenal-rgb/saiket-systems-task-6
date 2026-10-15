@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5:** Semantic structure, accessible forms, and modal dialogs.
 - **CSS3:** Custom CSS variables (`:root`) for theming, CSS Grid, Flexbox, backdrop filters, and smooth micro-interactions.
