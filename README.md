@@ -40,10 +40,6 @@
 
 - Any modern web browser (Chrome, Firefox, Edge, Safari).
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/devpulse-dashboard.git
-   ```
 2. **Navigate into the project directory:**
    ```bash
    cd devpulse-dashboard
