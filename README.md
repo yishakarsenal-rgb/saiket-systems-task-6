@@ -12,7 +12,7 @@
 - **Full CRUD Operations:** Create new tasks, edit existing task details, move tasks forward/backward across columns, and delete tasks with instant DOM updates.
 - ** Real-Time Analytics & Metrics:** Automatically tracks Total Tasks, Completed Tasks, and calculates the overall Completion Rate with a dynamic visual progress bar.
 - ** Built-in Focus Pomodoro Timer:** Integrated 25-minute work session timer with _Start_, _Pause_, and _Reset_ controls to boost productivity directly within the dashboard.
-- **🔍 Instant Search & Filtering:** Filter tasks in real-time by title, `#tag`, or priority level (_High_, _Medium_, _Low_).
+- **Instant Search & Filtering:** Filter tasks in real-time by title, `#tag`, or priority level (_High_, _Medium_, _Low_).
 - **🌓 Dark & Light Mode:** Seamless theme toggling with user preference saved automatically.
 - **💾 Persistent Local Storage:** All tasks and theme states are stored in the browser's `localStorage`, ensuring no data is lost on page reload.
 - **📱 Responsive Design:** Clean, modern UI built with CSS Grid and Flexbox that adapts smoothly to desktop, tablet, and mobile screens.
