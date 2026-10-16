@@ -53,6 +53,6 @@ _Created for Saiket Systems Internship — Task 6 (2026)_
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source and available under the [MIT License](LICENSE).
