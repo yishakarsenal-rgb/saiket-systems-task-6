@@ -36,7 +36,7 @@
 └── README.md        # Project documentation
 ```
 
-## 💡 Usage Guide
+## Usage Guide
 
 1. **Adding a Task:** Click the **+ New Task** button in the top navigation bar, fill in the title, priority, initial status, and category tag, then click **Save Task**.
 2. **Moving Tasks:** Use the `⬅️` and `➡️` arrow buttons on any task card to transition it between _To Do_, _In Progress_, and _Completed_.
