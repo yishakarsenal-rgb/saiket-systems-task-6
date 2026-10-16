@@ -27,7 +27,7 @@
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── index.html       # Main application layout, Kanban columns, and modal forms
