@@ -36,8 +36,6 @@
 └── README.md        # Project documentation
 ```
 
-### Prerequisites
-
 - Any modern web browser (Chrome, Firefox, Edge, Safari).
 
 ## 💡 Usage Guide
