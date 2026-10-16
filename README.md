@@ -48,8 +48,7 @@
 
 ## Author
 
-**Yishak Mekuannent**  
-_Created for Saiket Systems Internship — Task 6 (2026)_
+**Yishak Mekuannent**
 
 ---
 
