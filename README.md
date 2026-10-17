@@ -27,8 +27,6 @@
 
 ---
 
-## Project Structure
-
 ## Usage Guide
 
 1. **Adding a Task:** Click the **+ New Task** button in the top navigation bar, fill in the title, priority, initial status, and category tag, then click **Save Task**.
