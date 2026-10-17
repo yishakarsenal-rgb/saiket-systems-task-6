@@ -32,7 +32,7 @@
 ```text
 ├── index.html       # Main application layout, Kanban columns, and modal forms
 ├── styles.css       # Styling, dark/light theme variables, and responsive layout rules
-├── script.js        # Application logic, CRUD operations, LocalStorage, and Pomodoro timer
+
 
 
 ## Usage Guide
