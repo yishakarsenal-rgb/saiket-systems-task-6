@@ -51,5 +51,3 @@
 **Yishak Mekuannent**
 
 ---
-
-## License
