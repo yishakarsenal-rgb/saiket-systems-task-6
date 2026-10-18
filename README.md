@@ -2,7 +2,7 @@
 
 DevPulse is a real-time, interactive single-page web application (SPA) designed as an Agile Task & Focus Command Center. Built with vanilla HTML, CSS, and JavaScript, it features dynamic DOM updates, task lifecycle tracking across a Kanban board, real-time analytics, and a built-in Pomodoro focus timer.
 
-Project Context: Created for the Saiket Systems Internship — Task 6.
+Project Context: Created for the Saiket Systems Internship Task 6.
 
 ---
 
