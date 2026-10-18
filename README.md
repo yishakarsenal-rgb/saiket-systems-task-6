@@ -4,8 +4,6 @@ DevPulse is a real-time, interactive single-page web application (SPA) designed 
 
 Project Context: Created for the Saiket Systems Internship Task 6.
 
----
-
 ## Key Features
 
 - **Interactive Kanban Board:** Organize tasks effortlessly across three lifecycle stages: _To Do_, _In Progress_, and _Completed_.
