@@ -12,7 +12,7 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 - Built-in Focus Pomodoro Timer: Integrated 25-minute work session timer with Start, Pause, and Reset controls to boost productivity directly within the dashboard.
 - Instant Search & Filtering: Filter tasks in real-time by title, `#tag`, or priority level (High, Medium, Low).
 - Dark & Light Mode: Seamless theme toggling with user preference saved automatically.
-- **Persistent Local Storage:** All tasks and theme states are stored in the browser's `localStorage`, ensuring no data is lost on page reload.
+- Persistent Local Storage: All tasks and theme states are stored in the browser's `localStorage`, ensuring no data is lost on page reload.
 - **Responsive Design:** Clean, modern UI built with CSS Grid and Flexbox that adapts smoothly to desktop, tablet, and mobile screens.
 
 ---
