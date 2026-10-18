@@ -6,7 +6,7 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 
 ## Key Features
 
-- Interactive Kanban Board: Organize tasks effortlessly across three lifecycle stages: _To Do_, _In Progress_, and _Completed_.
+- Interactive Kanban Board: Organize tasks effortlessly across three lifecycle stages: To Do, In Progress, and Completed.
 - **Full CRUD Operations:** Create new tasks, edit existing task details, move tasks forward/backward across columns, and delete tasks with instant DOM updates.
 - ** Real-Time Analytics & Metrics:** Automatically tracks Total Tasks, Completed Tasks, and calculates the overall Completion Rate with a dynamic visual progress bar.
 - ** Built-in Focus Pomodoro Timer:** Integrated 25-minute work session timer with _Start_, _Pause_, and _Reset_ controls to boost productivity directly within the dashboard.
