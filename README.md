@@ -38,7 +38,3 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 ## Author
 
 **Yishak Mekuannent**
-
-```
-
-```
