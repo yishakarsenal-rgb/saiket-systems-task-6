@@ -27,7 +27,7 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 
 ## Usage Guide
 
-1. Adding a Task: Click the **+ New Task** button in the top navigation bar, fill in the title, priority, initial status, and category tag, then click **Save Task**.
+1. Adding a Task: Click the + New Task button in the top navigation bar, fill in the title, priority, initial status, and category tag, then click Save Task.
 2. **Moving Tasks:** Use the `⬅️` and `➡️` arrow buttons on any task card to transition it between _To Do_, _In Progress_, and _Completed_.
 3. **Editing / Deleting:** Click the `✏️` icon on a task card to modify its details, or the `🗑️` icon to remove it from the board.
 4. **Using the Pomodoro Timer:** Use the **Start**, **Pause**, and **Reset** buttons in the Focus Pomodoro card to manage 25-minute deep work sprints.
