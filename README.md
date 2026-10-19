@@ -19,7 +19,7 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 
 ## Tech Stack
 
-- **HTML5:** Semantic structure, accessible forms, and modal dialogs.
+- HTML5: Semantic structure, accessible forms, and modal dialogs.
 - **CSS3:** Custom CSS variables (`:root`) for theming, CSS Grid, Flexbox, backdrop filters, and smooth micro-interactions.
 - **Vanilla JavaScript (ES6+):** Dynamic DOM manipulation, event handling, state management via `localStorage`, and timer intervals.
 
