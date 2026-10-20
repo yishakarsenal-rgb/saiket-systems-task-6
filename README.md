@@ -31,7 +31,7 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 2. Moving Tasks: Use the `⬅️` and `➡️` arrow buttons on any task card to transition it between _To Do_, _In Progress_, and _Completed_.
 3. Editing / Deleting: Click the `✏️` icon on a task card to modify its details, or the `🗑️` icon to remove it from the board.
 4. Using the Pomodoro Timer: Use the Start, Pause, and Reset buttons in the Focus Pomodoro card to manage 25-minute deep work sprints.
-5. **Switching Themes:** Click the `🌙` / `☀️` button in the navigation bar to toggle between Dark and Light modes.
+5. Switching Themes: Click the `🌙` / `☀️` button in the navigation bar to toggle between Dark and Light modes.
 
 ---
 
