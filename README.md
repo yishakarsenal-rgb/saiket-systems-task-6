@@ -21,7 +21,7 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 
 - HTML5
 - CSS3
-- Vanilla JavaScript (ES6+): Dynamic DOM manipulation, event handling, state management via `localStorage`, and timer intervals.
+- Vanilla JavaScript (ES6+)
 
 ---
 
