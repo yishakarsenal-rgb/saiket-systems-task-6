@@ -19,9 +19,7 @@ Project Context: Created for the Saiket Systems Internship Task 6.
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- Vanilla JavaScript (ES6+)
+- HTML5,CSS3 and Vanilla JavaScript (ES6+)
 
 ---
 
